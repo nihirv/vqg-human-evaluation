@@ -17,7 +17,7 @@ const Test1 = ({ router: { query } }) => {
           linguistically/gramatically coherent. Simply, does language in the
           question make sense. The experiment is setup as follows:
           <ul>
-            <li>You will be shown 100 questions</li>
+            <li>You will be shown 105 questions</li>
             <li>Judge whether the question makes gramatical sense</li>
           </ul>
         </p>

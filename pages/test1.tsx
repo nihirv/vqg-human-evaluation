@@ -18,7 +18,7 @@ const Test1 = ({ router: { query } }) => {
           is set up as follows:
           <ul>
             <li>
-              You will be shown 100 images and two questions for each image
+              You will be shown 105 images and two questions for each image
             </li>
             <li>
               One of these questions is a ground truth question, and the other

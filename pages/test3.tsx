@@ -21,7 +21,7 @@ const Test1 = ({ router: { query } }) => {
           asking?". The experiment is setup as follows:
           <ul>
             <li>
-              You will be shown 100 images, alongside 2 objects and an answer
+              You will be shown 35 images, alongside 2 objects and an answer
               category
             </li>
             <li>

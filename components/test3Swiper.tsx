@@ -131,6 +131,7 @@ const Test3Swiper: React.FC<SwiperProps> = ({ userName }) => {
             return (
               <TinderCard
                 ref={childRefs[index]}
+                // @ts-ignore
                 className={styles.swipe}
                 key={question.id}
                 onCardLeftScreen={(dir) => outOfFrame(dir, question.id)}

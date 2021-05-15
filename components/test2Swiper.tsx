@@ -145,6 +145,7 @@ const Test2Swiper: React.FC<SwiperProps> = ({ userName }) => {
           {questions.map((question, index) => (
             <TinderCard
               ref={childRefs[index]}
+              // @ts-ignore
               className={styles.swipe}
               key={question.id}
               onCardLeftScreen={(dir) => outOfFrame(dir, question)}
