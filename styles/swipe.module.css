@@ -1,0 +1,160 @@
+#root > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  flex-direction: row !important;
+}
+
+.row > * {
+  margin: 5px;
+}
+
+.swipe {
+  position: absolute;
+}
+
+.tinderCardContainer {
+  position: relative;
+  width: 80vw;
+  max-width: 500px;
+  height: 620px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.tinderCardContainerNoImage {
+  position: relative;
+  width: 80vw;
+  max-width: 500px;
+  height: 120px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.activateKeyPress {
+  position: absolute;
+  top: 0;
+  margin-top: -120px;
+  z-index: 10;
+}
+
+.tinderCard {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  min-height: 800px;
+  box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  margin-top: 180px;
+  padding-bottom: 30px;
+}
+
+.tinderCardNoImage {
+  position: relative;
+  background-color: #fff;
+  width: 100vw;
+  max-width: 800px;
+  height: 120px;
+  box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  margin-top: -120px;
+  padding-top: 30px;
+}
+
+.cardImage {
+  padding: 30px;
+  max-width: 100vw;
+  height: auto;
+}
+
+.tinderCardContent {
+  width: 100%;
+  height: 100%;
+}
+
+.swipe:last-of-type {
+}
+
+.tinderCard h3 {
+  position: absolute;
+  bottom: 0;
+  margin: 10px;
+  color: #fff;
+}
+
+.infoText {
+  width: 100%;
+  height: 28px;
+  justify-content: center;
+  display: flex;
+  color: #fff;
+  animation-name: popup;
+  animation-duration: 800ms;
+}
+
+.buttons {
+  margin: 20px;
+  display: flex;
+}
+
+.buttons button {
+  flex-shrink: 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  background-color: #9198e5;
+  transition: 200ms;
+  margin: 0 10px;
+  font-weight: bolder;
+  width: 160px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.buttons button:hover {
+  transform: scale(1.05);
+}
+
+@keyframes popup {
+  0% {
+    transform: scale(1, 1);
+  }
+  10% {
+    transform: scale(1.1, 1.1);
+  }
+  30% {
+    transform: scale(0.9, 0.9);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  57% {
+    transform: scale(1, 1);
+  }
+  64% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
