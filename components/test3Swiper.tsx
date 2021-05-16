@@ -148,13 +148,6 @@ const Test3Swiper: React.FC<SwiperProps> = ({ userName }) => {
                       src={question.url + "?" + random}
                     />
                     <p>
-                      <b>Category:</b> {question.category}
-                    </p>
-                    <p>
-                      <b>Objects:</b> {question.objects}
-                    </p>
-
-                    <p>
                       <b>Question:</b> {question.q}
                     </p>
                   </div>

@@ -14,16 +14,12 @@ const Test1 = ({ router: { query } }) => {
         </h1>
         <p className={styles.description}>
           In this test, we are aiming to determine whether a generated question
-          is relevant to the given image, listed objects and answer category.
-          You may guage relevance under the following heuristic: "If I was an
-          annotator who was told to generate a question with the given image,
-          objects and category, is this a question that I could see myself
-          asking?". The experiment is setup as follows:
+          is relevant to the given image. You may guage relevance under the
+          following heuristic: "If I was an annotator who was told to generate a
+          question with the given image is this a question that I could see
+          myself asking?". The experiment is setup as follows:
           <ul>
-            <li>
-              You will be shown 35 images, alongside 2 objects and an answer
-              category
-            </li>
+            <li>You will be shown 35 images and a generated question</li>
             <li>
               Judge whether the generated question is relevant to the provided
               information
