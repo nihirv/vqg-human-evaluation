@@ -41,5 +41,23 @@ const randomlySample = (
   return newObject;
 };
 
-export { randomlySample };
+const getTruePairs = (k = 20): FlatQuestionType[] => {
+  const samples = require("./true_pairs_samples.json");
+  const sampleKeys = _.sample(Object.keys(samples), k);
+  const newObject = sampleKeys.map<FlatQuestionType>((image_id) => {
+    return { image_id, ...samples[image_id] };
+  });
+  return newObject;
+};
+
+const getAdversarialPairs = (k = 20): FlatQuestionType[] => {
+  const samples = require("./adversarial_pairs_samples.json");
+  const sampleKeys = _.sample(Object.keys(samples), k);
+  const newObject = sampleKeys.map<FlatQuestionType>((image_id) => {
+    return { image_id, ...samples[image_id] };
+  });
+  return newObject;
+};
+
+export { randomlySample, getTruePairs, getAdversarialPairs };
 export type { JSONType };

@@ -9,8 +9,10 @@
   },
   "dependencies": {
     "@material-ui/core": "^4.11.4",
+    "@types/lodash": "^4.14.172",
     "@zeit/next-css": "^1.0.1",
     "fs": "0.0.1-security",
+    "lodash": "^4.17.21",
     "next": "10.2.0",
     "next-compose-plugins": "^2.2.1",
     "next-optimized-images": "^2.6.2",
