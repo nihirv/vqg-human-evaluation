@@ -31,10 +31,12 @@ const Test4 = ({ router: { query } }) => {
           are not showing an image, use your best judgement on the answer to the
           question.
           <ul>
-            <li>You will be shown 40 images and a generated question</li>
             <li>
-              Judge whether the generated question is relevant to the provided
-              information
+              You will be shown 40 samples of objects and a generated question
+            </li>
+            <li>
+              Judge whether the generated question is relevant to at least one
+              of the objects
             </li>
           </ul>
         </p>
