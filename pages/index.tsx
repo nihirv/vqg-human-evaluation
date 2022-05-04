@@ -26,22 +26,20 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
+          This web interface has been created for human evaluation of a project
+          on Visual Question Generation. This interface asks you to test 2
+          components of the VQG system:
           {/* This web interface has been created for human evaluation of the Guided
-          VQG project. This interface asks you to test 3 components of the VQG
-          system: */}
-          This web interface has been created for human evaluation of the Guided
           VQG project. This interface asks you to test a component of our VQG
-          model:
+          model: */}
           <ol className={styles.code}>
             <li>
-              Given a set of objects and a generated question, is at least of of
-              the objects in the set of objects related to the generated
-              question?
-            </li>
-            {/* <li>
-              The grammatic/linguistic plausibility of the generated question
+              Whether a question is model generated or written by a real human
             </li>
             <li>
+              The grammatic/linguistic plausibility of the generated question
+            </li>
+            {/* <li>
               Whether a generated question is relevant to the image and objects
             </li> */}
           </ol>
@@ -90,7 +88,7 @@ export default function Home() {
           <p className={styles.code}>Please enter a name to see the links</p>
         ) : (
           <div className={styles.grid}>
-            <Link href={{ pathname: "/test4", query: { name: name } }} passHref>
+            {/* <Link href={{ pathname: "/test4", query: { name: name } }} passHref>
               <a className={styles.card}>
                 <h2>Test 4 &rarr;</h2>
                 <p>
@@ -99,9 +97,9 @@ export default function Home() {
                   generated question?
                 </p>
               </a>
-            </Link>
+            </Link> */}
 
-            {/* <Link href={{ pathname: "/test1", query: { name: name } }} passHref>
+            <Link href={{ pathname: "/test1", query: { name: name } }} passHref>
               <a className={styles.card}>
                 <h2>Test 1 &rarr;</h2>
                 <p>
@@ -121,7 +119,8 @@ export default function Home() {
               </a>
             </Link>
 
-            <Link href={{ pathname: "/test3", query: { name: name } }} passHref>
+            {/*
+          <Link href={{ pathname: "/test3", query: { name: name } }} passHref>
               <a className={styles.card}>
                 <h2>Test 3 &rarr;</h2>
                 <p>

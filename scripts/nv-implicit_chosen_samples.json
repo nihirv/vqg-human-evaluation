@@ -1,0 +1,226 @@
+{
+    "161470": {
+        "category": "binary",
+        "objects": "water fish",
+        "generated_q": "what is the surfer doing?",
+        "real_q": "what is in the water?",
+        "type": "baseline",
+        "image_url": "http://farm4.staticflickr.com/3309/4561721601_e65562afcc_z.jpg"
+    },
+    "14151": {
+        "category": "binary",
+        "objects": "ski ski pole",
+        "generated_q": "is it cold out?",
+        "real_q": "what type of sport are the people going to do in the picture?",
+        "type": "baseline",
+        "image_url": "http://farm3.staticflickr.com/2698/4354801462_bc09ee761e_z.jpg"
+    },
+    "142742": {
+        "category": "color",
+        "objects": "ball bat",
+        "generated_q": "what color is the helmet?",
+        "real_q": "has the batter hit the ball?",
+        "type": "baseline",
+        "image_url": "http://farm7.staticflickr.com/6164/6143907193_3c3c4dbe2b_z.jpg"
+    },
+    "265234": {
+        "category": "binary",
+        "objects": "boat water",
+        "generated_q": "is this a pier?",
+        "real_q": "what company is the boat?",
+        "type": "baseline",
+        "image_url": "http://farm4.staticflickr.com/3060/2971251148_d241e54ae2_z.jpg"
+    },
+    "343524": {
+        "category": "binary",
+        "objects": "man racket",
+        "generated_q": "what color is the player's hair?",
+        "real_q": "what is the man doing?",
+        "type": "baseline",
+        "image_url": "http://farm3.staticflickr.com/2645/4008688728_f882f1ba16_z.jpg"
+    },
+    "227893": {
+        "category": "binary",
+        "objects": "bus wheel",
+        "generated_q": "is the bus moving?",
+        "real_q": "is this a train?",
+        "type": "baseline",
+        "image_url": "http://farm9.staticflickr.com/8040/7949489586_fce8578377_z.jpg"
+    },
+    "549780": {
+        "category": "binary",
+        "objects": "light table",
+        "generated_q": "is the bun burnt?",
+        "real_q": "what color is the container?",
+        "type": "baseline",
+        "image_url": "http://farm4.staticflickr.com/3497/3305562252_f50f8ce53c_z.jpg"
+    },
+    "289152": {
+        "category": "location",
+        "objects": "toy baby",
+        "generated_q": "what is the floor made of?",
+        "real_q": "is the baby playing with toy blocks?",
+        "type": "baseline",
+        "image_url": "http://farm8.staticflickr.com/7017/6585292031_ea7230d454_z.jpg"
+    },
+    "293333": {
+        "category": "count",
+        "objects": "train headlights",
+        "generated_q": "what color is the stripe on the left?",
+        "real_q": "to the headlights on the train appear to be on?",
+        "type": "baseline",
+        "image_url": "http://farm8.staticflickr.com/7350/9703540381_126578950d_z.jpg"
+    },
+    "526560": {
+        "category": "binary",
+        "objects": "grass trees",
+        "generated_q": "what is the zebra doing?",
+        "real_q": "is the grass low cut?",
+        "type": "baseline",
+        "image_url": "http://farm9.staticflickr.com/8431/7633896866_02bde5c591_z.jpg"
+    },
+    "258311": {
+        "category": "binary",
+        "objects": "train train car",
+        "generated_q": "is this a church?",
+        "real_q": "is there a train?",
+        "type": "baseline",
+        "image_url": "http://farm9.staticflickr.com/8126/8687827938_c26eb7e685_z.jpg"
+    },
+    "532671": {
+        "category": "binary",
+        "objects": "bike motorcycle",
+        "generated_q": "is the bike moving?",
+        "real_q": "is anyone riding the bike?",
+        "type": "baseline",
+        "image_url": "http://farm3.staticflickr.com/2522/3890073604_bbb607f42a_z.jpg"
+    },
+    "351140": {
+        "category": "binary",
+        "objects": "number ski pole",
+        "generated_q": "what is the person holding?",
+        "real_q": "what number skier is this?",
+        "type": "baseline",
+        "image_url": "http://farm3.staticflickr.com/2769/4362939552_1419147e79_z.jpg"
+    },
+    "83136": {
+        "category": "binary",
+        "objects": "jacket man",
+        "generated_q": "what color is the ball?",
+        "real_q": "what is the boy wearing?",
+        "type": "baseline",
+        "image_url": "http://farm4.staticflickr.com/3176/3115417771_31c4dd0018_z.jpg"
+    },
+    "405279": {
+        "category": "object",
+        "objects": "post people",
+        "generated_q": "what is the color of the kite?",
+        "real_q": "how many animals are here?",
+        "type": "baseline",
+        "image_url": "http://farm1.staticflickr.com/236/443807489_3d7fba2557_z.jpg"
+    },
+    "150080": {
+        "category": "binary",
+        "objects": "pizza plate",
+        "generated_q": "is there a spoon in the picture?",
+        "real_q": "where is the pizza?",
+        "type": "baseline",
+        "image_url": "http://farm4.staticflickr.com/3560/3587361111_fabd4a383a_z.jpg"
+    },
+    "30044": {
+        "category": "binary",
+        "objects": "plane airplane",
+        "generated_q": "what is the weather like?",
+        "real_q": "what color is the plane?",
+        "type": "baseline",
+        "image_url": "http://farm5.staticflickr.com/4096/5602609436_047cb452d7_z.jpg"
+    },
+    "431201": {
+        "category": "binary",
+        "objects": "racket ball",
+        "generated_q": "what color is the child's jacket?",
+        "real_q": "how many rackets are there?",
+        "type": "baseline",
+        "image_url": "http://farm4.staticflickr.com/3688/9041457657_51f9645ab5_z.jpg"
+    },
+    "510299": {
+        "category": "binary",
+        "objects": "bell building",
+        "generated_q": "how many windows are visible?",
+        "real_q": "what material is the bell made of?",
+        "type": "baseline",
+        "image_url": "http://farm1.staticflickr.com/39/115227290_559f368316_z.jpg"
+    },
+    "330604": {
+        "category": "binary",
+        "objects": "wheel word",
+        "generated_q": "is this a highway road?",
+        "real_q": "is it parked properly?",
+        "type": "baseline",
+        "image_url": "http://farm5.staticflickr.com/4075/4771845683_71a2a10f51_z.jpg"
+    },
+    "34757": {
+        "category": "binary",
+        "objects": "wall glass",
+        "generated_q": "is there a fork in the picture?",
+        "real_q": "what color is the wall?",
+        "type": "baseline",
+        "image_url": "http://farm4.staticflickr.com/3765/9660619814_d988845e28_z.jpg"
+    },
+    "230661": {
+        "category": "count",
+        "objects": "tire letter",
+        "generated_q": "what color is the stripe on the left?",
+        "real_q": "is this a delivery truck?",
+        "type": "baseline",
+        "image_url": "http://farm8.staticflickr.com/7042/6965488669_13b5a226c0_z.jpg"
+    },
+    "290076": {
+        "category": "binary",
+        "objects": "living room ear",
+        "generated_q": "how many chairs are there?",
+        "real_q": "does this house look clean?",
+        "type": "baseline",
+        "image_url": "http://farm4.staticflickr.com/3716/9110757104_f2791a7aa9_z.jpg"
+    },
+    "443426": {
+        "category": "binary",
+        "objects": "man head",
+        "generated_q": "what is the person holding?",
+        "real_q": "is he ready for work?",
+        "type": "baseline",
+        "image_url": "http://farm4.staticflickr.com/3491/4042707985_45a7f64d1d_z.jpg"
+    },
+    "2154": {
+        "category": "binary",
+        "objects": "line sign",
+        "generated_q": "is this a shopping mall?",
+        "real_q": "what are the color of the cafe's umbrellas?",
+        "type": "baseline",
+        "image_url": "http://farm6.staticflickr.com/5147/5579483902_3c420d1168_z.jpg"
+    },
+    "476664": {
+        "category": "color",
+        "objects": "cat cord",
+        "generated_q": "what color is the carpet?",
+        "real_q": "is that a cat?",
+        "type": "baseline",
+        "image_url": "http://farm4.staticflickr.com/3370/3217508941_02d79e28bc_z.jpg"
+    },
+    "20992": {
+        "category": "color",
+        "objects": "man woman",
+        "generated_q": "what color is her shirt?",
+        "real_q": "what type of food is this person eating?",
+        "type": "baseline",
+        "image_url": "http://farm3.staticflickr.com/2131/1680764916_05f5e183ca_z.jpg"
+    },
+    "331366": {
+        "category": "other",
+        "objects": "man hat",
+        "generated_q": "is this a summer flag?",
+        "real_q": "is he riding a unicycle?",
+        "type": "baseline",
+        "image_url": "http://farm3.staticflickr.com/2525/3910801203_682997a47a_z.jpg"
+    }
+}
